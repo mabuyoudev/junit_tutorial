@@ -19,7 +19,7 @@ public class RandomsTest {
     sut.generator = new RandomNumberGenerator() {
       @Override
       public int nextInt() {
-        return 0;
+        return 1;
       }
     };
   }
